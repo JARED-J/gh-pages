@@ -5,22 +5,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <script src="https://kit.fontawesome.com/6181a653ca.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="index.css">
     <script src="index.js" async defer></script>
 </head>
-<body>
+<body id="bg-img">
     <nav>
         <ul class="menu">
-            <li class="logo"><a href="#">Jared Jackson</a></li>
-            <li class="item"><a href="#">Home</a></li>
-            <li class="item"><a href="#">Projects</a></li>
-            <li class="item"><a href="#">About</a></li>
+            <li class="logo"><a href="#home">Jared Jackson</a></li>
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#projects">Projects</a></li>
+            <li class="item"><a href="#about">About</a></li>
             <li class="item button"><a href="#">Contact</a></li>
             <li class="toggle" onclick="setActive()"><span class="bars"></span></li>
         </ul>
     </nav>
-    <main>
-        <a href="#" style="position:fixed;bottom:0;">You clicked link</a>
+    
+    <main id="home">
+        <a name="home"></a>
+        <h1 class="lg-heading">
+            Jared <span class="text-secondary">Jackson</span>
+        </h1>
+        <h2 class="sm-heading">
+            Web Developer, Programmer, & Musician
+        </h2>
+        <div class="icons">
+            <a href="https://www.linkedin.com/in/jared-jackson/" target="blank" class="sm-padding hover-t ease">
+                <i class="fab fa-linkedin fa-2x"></i>
+            </a>
+            <a href="https://github.com/JARED-J" target="blank" class="sm-padding hover-t ease">
+                <i class="fab fa-github fa-2x"></i>
+            </a>
+            <a href="mailto:jaredjxn15@gmail.com" class="sm-padding hover-t ease">
+                <i class="far fa-envelope fa-2x"></i>
+            </a>
+        </div>
     </main>
+
+    <!-- <div class="container">
+        <div class="projects">
+            <a name="projects"></a>
+            <span>projects section</span>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="about">
+            <span>About section</span>
+            <a name="about"></a>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="contact">
+            <span>Contact Section</span>
+            <a name="contact"></a>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="contact">
+            <a href="mailto:jaredjxn15@gmail.com">
+                <i class="far fa-envelope"></i>
+                <span>Message Me</span>
+            </a>
+        </div>
+    </div> -->
 </body>
 </html>
