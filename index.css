@@ -11,13 +11,49 @@ body{
 nav{
     width:100%;
     background: #222;
-    padding:5px 20px;
+    padding:4px 20px;
     position:fixed;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .container {
     width: 100%;
-    padding: 10px 15px;
+    padding: 10px 10vw;
+    display:flex;
+    /* flex-direction: row; */
+    /* flex-wrap:none; */
+    /* justify-content:center; */
+}
+
+.project{
+    width:100%;
+    padding:15px;
+    /* background-color: #52f2c8; */
+    flex-direction:row;
+}
+
+.proj-img{
+    height:35vh;
+    width:25vw;
+    flex-grow:1;
+    border:3px solid #444;
+    border-radius: 15px;
+    background-image: url("/img/background.jpg");
+    background-size:cover;
+    padding:0;
+    margin:0;
+}
+
+.description{
+    padding-left:15px;
+    margin: 0 0 0 -5px;
+    border-radius: 15px;
+    border:3px solid #52f2c8;
+    flex-grow:2;
+    flex-shrink:1;
+    height:35vh;
+    width:30vw;
 }
 
 ul{
@@ -39,24 +75,21 @@ main{
 }
 
 h1{
-    margin-top:14vh;
+    margin-top:10vh;
 }
 
 h2 {
     margin-top:4vh;
-    padding-left:10vw;
 }
 
 footer{
-    position: fixed;
-    left: 0;
-    bottom: 0;
     width: 100%;
     height:5vh;
     background-color: #222;
     color: white;
     padding-top:1vh;
     text-align: center;
+    margin-top: 30vh;
 }
 
 #home{
@@ -75,7 +108,7 @@ footer{
 }
 
 .sm-padding{
-    padding:0.4rem;
+    padding:1rem;
 }
 
 .pad-left{
@@ -87,7 +120,7 @@ footer{
 }
 
 .lg-heading{
-    font-size: 4rem;
+    font-size: 5rem;
 }
 .sm-heading{
     margin-bottom: 2rem;
