@@ -9,48 +9,41 @@
     <link rel="stylesheet" type="text/css" href="index.css">
     <script src="index.js" async defer></script>
 </head>
-<body id="bg-img">
+<body>
+    <a id="home"></a>
     <nav>
         <ul class="menu">
-            <li class="logo"><a href="index.html"><span id="logo">JJ</span></a></li>
-            <li class="item"><a href="index.html">Home</a></li>
-            <li class="item"><a href="projects.html">Projects</a></li>
-            <li class="item button"><a href="contact.html">Contact</a></li>
-            <li class="toggle" onclick="setActive()"><span class="bars"></span></li>
+            <!-- <li class="logo"><a href="index.html"><span id="logo">JJ</span></a></li> -->
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#projects">Projects</a></li>
+            <li class="item"><a href="#contact">Contact</a></li>
         </ul>
     </nav>
-    
-    <main id="home">
-        <a name="home"></a>
-        <div class="center">
-            <h1 class="lg-heading sm-padding">
-                Hi, I'm Jared <span class="text-secondary">Jackson</span>
-            </h1>
-        </div>
-        <h2 class="sm-heading pad-left">
-            I’m a Fullstack Web Developer living in New York,<br>
-            The tools I most commonly use are:<br>
-            Javascript, HTML, CSS, Node, React/React-Native, and Redux<br>
-            I’ve  also dabbled in: Swift, Python and the Unreal Engine
+    <main>
+        <h1>
+            Hi,
+            I'm Jared <span class="text-secondary">Jackson</span>
+        </h1>
+        <p class="about">
+            Trained in fullstack web development. I'm a software developer living in New York.
+        </p>
+        <p>
+            The tools i've used the most to create web apps are: Javascript, HTML/CSS, Node, React, React-Native, and Redux.
+            I've also dabbled in Python Swift and the Unreal Engine.
+        </p>
+        <h2>
+            Projects
         </h2>
-
-        <div class="pad-left">
-            <a href="https://www.linkedin.com/in/jared-jackson/" target="blank" class="sm-padding hover-t ease icon">
-                <i class="fab fa-linkedin fa-2x"></i>
-            </a>
-            <a href="https://github.com/JARED-J" target="blank" class="sm-padding hover-t ease icon">
-                <i class="fab fa-github fa-2x"></i>
-            </a>
-            <a href="mailto:jaredjxn15@gmail.com" class="sm-padding hover-t ease icon">
-                <i class="far fa-envelope fa-2x"></i>
-            </a>
+        <a id="projects"></a>
+        <div class="container">
+        <div class="proj-img golive"></div>
+            <h3>Go-live radio</h3>
+            <p>
+                Go Live is an audio broadcasting platform,
+                where any user can set up a station, record and stream broadcasts.
+                Users can listen to previous archved broadcasts aswell.
+            </p>
         </div>
     </main>
-
-    <!-- <footer>
-        <div class="center">
-            <span>Jared Jackson 2020</span>
-        </div>
-    </footer> -->
 </body>
 </html>
