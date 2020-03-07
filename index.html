@@ -4,72 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Jared Jackson</title>
     <script src="https://kit.fontawesome.com/6181a653ca.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="index.css">
     <script src="index.js" async defer></script>
 </head>
-<body id="bg-img">
+<body>
+    <a id="home"></a>
     <nav>
         <ul class="menu">
-            <li class="logo"><a href="#home">Jared Jackson</a></li>
+            <!-- <li class="logo"><a href="index.html"><span id="logo">JJ</span></a></li> -->
             <li class="item"><a href="#home">Home</a></li>
             <li class="item"><a href="#projects">Projects</a></li>
-            <li class="item"><a href="#about">About</a></li>
-            <li class="item button"><a href="#">Contact</a></li>
-            <li class="toggle" onclick="setActive()"><span class="bars"></span></li>
+            <li class="item"><a href="#contact">Contact</a></li>
         </ul>
     </nav>
-    
-    <main id="home">
-        <a name="home"></a>
-        <h1 class="lg-heading">
-            Jared <span class="text-secondary">Jackson</span>
+    <main>
+        <h1>
+            Hi,
+            I'm Jared <span class="text-secondary">Jackson</span>
         </h1>
-        <h2 class="sm-heading">
-            Web Developer, Programmer, & Musician
+        <p class="about">
+            Trained in fullstack web development. I'm a software developer living in New York.
+        </p>
+        <p>
+            The tools i've used the most to create web apps are: Javascript, HTML/CSS, Node, React, React-Native, and Redux.
+            I've also dabbled in Python Swift and the Unreal Engine.
+        </p>
+        <a id="projects"></a>
+        <h2>
+            Projects
         </h2>
-        <div class="icons">
-            <a href="https://www.linkedin.com/in/jared-jackson/" target="blank" class="sm-padding hover-t ease">
+        <div class="container">
+            <img src="/img/Golive.png" alt="Go-Live" class="proj-img">
+            <h3>
+                Go-live radio
+                <a href="https://github.com/GoLive-Radio/GoLive" target="blank" class="pad">
+                    <i class="fab fa-github fa-1x"></i>
+                </a>
+            </h3>
+            <p>
+                Go Live is an audio broadcasting platform,
+                where any user can set up a station, record and stream broadcasts.
+                Users can listen to previous archved broadcasts aswell.
+            </p>
+        </div>
+        <div class="container">
+            <img src="/img/instrument-emporium.png" alt="instrument-emporium" class="proj-img">
+            <h3>
+                Instrument Emporium
+                <a href="https://github.com/instrumentEmporium/instrumentEmporium" target="blank" class="pad">
+                    <i class="fab fa-github fa-1x"></i>
+                </a>
+            </h3>
+            <p>
+                Instrument Emporium is a mock E-commerce website made with restful practices
+                where you search products by name or catagory and complete an online purchase.
+            </p>
+        </div>
+        <a id="contact"></a>
+        <h2>
+            Contact
+        </h2>
+        <p>
+            I'd love to connect, you can reach me at
+        </p>
+        <div class="margin-top margin-bot">
+            <a href="https://www.linkedin.com/in/jared-jackson/" target="blank" class="pad-right">
                 <i class="fab fa-linkedin fa-2x"></i>
             </a>
-            <a href="https://github.com/JARED-J" target="blank" class="sm-padding hover-t ease">
+            <a href="https://github.com/JARED-J" target="blank" class="pad">
                 <i class="fab fa-github fa-2x"></i>
             </a>
-            <a href="mailto:jaredjxn15@gmail.com" class="sm-padding hover-t ease">
+            <a href="mailto:jaredjxn15@gmail.com" class="pad">
                 <i class="far fa-envelope fa-2x"></i>
             </a>
         </div>
     </main>
-
-    <!-- <div class="container">
-        <div class="projects">
-            <a name="projects"></a>
-            <span>projects section</span>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="about">
-            <span>About section</span>
-            <a name="about"></a>
-        </div>
-    </div>
-    
-    <div class="container">
-        <div class="contact">
-            <span>Contact Section</span>
-            <a name="contact"></a>
-        </div>
-    </div>
-    
-    <div class="container">
-        <div class="contact">
-            <a href="mailto:jaredjxn15@gmail.com">
-                <i class="far fa-envelope"></i>
-                <span>Message Me</span>
-            </a>
-        </div>
-    </div> -->
 </body>
 </html>
