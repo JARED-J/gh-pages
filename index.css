@@ -19,14 +19,12 @@ main {
     margin: 0 auto;
 }
 
-/* Copy & Lists */
 p {
 line-height: 1.5rem;
 margin-top: 1.5rem;
 margin-bottom: 0;
 }
 
-/* Headings */
 h1,
 h2,
 h3,
@@ -93,11 +91,6 @@ nav {
     flex:1;
 }
 
-.golive{
-    background-image: url("/img/Golive.png");
-    background-size:cover;
-}
-
 .container {
     margin-top:2rem;
     width: 100%;
@@ -105,12 +98,21 @@ nav {
 
 
 .proj-img{
-
-    height:35vh;
-    width:30vw;
-    border:3px solid #444;
+    height:auto;
+    width:90%;
+    border:2px solid #444;
     box-shadow:  0 6px 4px -4px rgba(0,0,0,0.7); 
     border-radius: 15px;
-    /* padding:0;
-    margin:0;
+}
+
+.pad{
+    padding:0.5rem;
+}
+
+.pad-right{
+    padding-right:0.5rem;
+}
+
+.margin-top{
+    margin-top:1.5rem;
 }
