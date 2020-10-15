@@ -25,6 +25,13 @@ margin-top: 1.5rem;
 margin-bottom: 0;
 }
 
+.connect {
+    line-height: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom:0;
+    display:block;
+}
+
 h1,
 h2,
 h3,
@@ -61,6 +68,31 @@ a:focus {
     color: #52f2c8;
 }
 
+.button {
+	display: inline-block;
+    margin-top: 0.5rem;
+    padding: 0.25rem 0.5rem;
+    border: 0.1rem solid black;
+	border-radius: 0.317rem;
+	background-color: #fff;
+	color: black;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 1rem;
+    line-height: 1;
+	cursor: pointer;
+	-webkit-appearance: none;
+	-webkit-font-smoothing: antialiased;
+}
+
+.button:hover {
+	opacity: 0.85;
+}
+
+.button:active {
+	box-shadow: inset 0 3px 4px hsla(0, 0%, 0%, 0.2);
+}
+
 @media only screen and (max-width: 812px) {
     body {
         margin: 16px;
@@ -68,6 +100,11 @@ a:focus {
 
     main {
         width: 100%;
+    }
+
+    h1 {
+        font-size: 3.4rem;
+        line-height: 3.8rem;
     }
 }
 
@@ -113,6 +150,14 @@ nav {
     padding-right:0.5rem;
 }
 
+.pad-bot{
+    padding-bottom:0.5rem;
+}
+
 .margin-top{
     margin-top:1.5rem;
+}
+
+.margin-bot{
+    margin-bottom:1.5rem;
 }
